@@ -1,6 +1,3 @@
-# atividades
-<!DOCTYPE html>
-
 <html>
 <head>
 	<title>ATIVIDADES PROGRAMAÇÃO WEB</title>
