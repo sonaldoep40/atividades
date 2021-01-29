@@ -1,6 +1,3 @@
-# atividades
-<!DOCTYPE html>
-
 <html>
 <head>
 	<title>ATIVIDADES PROGRAMAÇÃO WEB</title>
@@ -9,6 +6,6 @@
 <body>
 	<h1><b>ATIVIDADES</b></h1>
 	<h2>Estas atividades são relacionadas a disciplina de programação web do instituto federal do piaui:</h2>
-	<a href="ATIVIDADE4/index.html">ATIVIADE 4</a>
+	<a href="root/ATIVIDADE4/index.html">ATIVIADE 4</a>
 </body>
 </html>
