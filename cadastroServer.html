@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background:#A9A9A9; text-align: center; margin-top: 0%;">
+    <table border="0" width="100%" cellspacing="1" cellpadding="50%" style="border-color: #808080; color: #DCDCDC;">
+        <tr>
+            <td></td>
+            <td  style="text-align: left;">
+                <h1>Cadastro</h1>
+                <form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
+                    <p style="font-size: large;"><b>Login: <br> </b><input type="text" name="login"></p>
+                    <p style="font-size: large;"><b>Senha: <br></b><input type="password" name="senha"></p>
+                    <p style="font-size: large;"><b>Confirme a Senha: <br></b><input type="password" name="confirmaSenha"></p>
+                    <p style="font-size: large;"><b>Nome: <br></b><input type="text" name="nome"></p>
+                    <p style="font-size: large;"><b>Sexo: </b>
+                    <br>
+                    <input type="radio" name="sexo" value="Masculino"> Masculino
+                    <input type="radio" name="sexo" value="Feminino"> Feminino
+                    </p>
+                    <p style="font-size: large;"><b>Email: <br> </b><input type="text" name="email"></p>
+                    <p style="font-size: large;"><b>Interesses: <br></b>
+                        <input type="checkbox" value="Futebol"> Futebol <br>
+                        <input type="checkbox" value="Política"> Política <br>
+                        <input type="checkbox" value="Economia"> Economia <br>
+                        <input type="checkbox" value="Carros"> Carros <br>
+                        <input type="checkbox" value="Celebridades"> Celebridades
+                    </p>
+                    <p style="font-size: large;"><b>Estado: </b>
+                    <select name="estado" >
+                        <option value="" selected>Selecione o Estado</option>
+                        <option value="PI">Piauí</option>
+                        <option value="CE">Ceara</option>
+                        <option value="MA">Maranhão</option>
+                    </select>
+                    <p style="font-size: large;"><b>Observações: </b>
+                    <textarea name="" cols="100">Digite algo aqui</textarea>
+                    <input type="submit" value="Enviar"><p></p>  
+                </form>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
