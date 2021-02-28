@@ -1,12 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JM Viagens - Comprar Pacote</title>
 </head>
 <body>
-    
+    <table border="0" width="95%" align="center">
+        <tr>
+            <td>
+                <img src="imagens/logo.png" width="95%" />
+            </td>
+            <td align="right">
+                <a href="index.html">Home</a>
+                <a href="quem-somos.html">Quem Somos</a>
+                <a href="destinos.html">Destinos</a>
+                <a href="contato.html">Contato</a>
+                <a href="select-destino.html">Comprar Pacotes</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form>
+                    <p style="font-size: large;"><b>Origem: <br> </b><input type="text" name="origem"></p>
+                    <p style="font-size: large;"><b>Destino: <br></b><input type="text" name="destino"></p>
+                    <p style="font-size: large;"><b>Pacote: </b>
+                    <select name=pacote >
+                        <option value="" selected>Selecione o Pacote desejado</option>
+                        <option value="completo">Completo</option>
+                        <option value="simples">Simples</option>
+                    </select>
+                    <p style="font-size: large;"><b>Data de Partida: <br> </b><input type="date" name="data-de-partida"></p>
+                    <p style="font-size: large;"><b>Data de Retorno: <br> </b><input type="date" name="data-de-retorno"></p>
+                    <p style="font-size: large;"><b>Quantidade de Quartos: </b><br>
+                        <select name=quartos >
+                            <option value="" selected>Selecione a quantidade</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="2">3</option>
+                            <option value="2">4</option>
+                        </select>
+                    <p style="font-size: large;"><b>Quantidade de Adultos: </b> <br>
+                        <select name=adultos >
+                            <option value="" selected>Selecione a quantidade</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="2">3</option>
+                            <option value="2">4</option>
+                            <option value="1">5</option>
+                            <option value="2">6</option>
+                            <option value="2">7</option>
+                            <option value="2">8</option>
+                            <option value="1">9</option>
+                            <option value="2">10</option>
+                            <option value="2">11</option>
+                            <option value="2">12</option>
+                        </select>
+                    <p style="font-size: large;"><b>Quantidade de Crianças: </b><br>
+                        <select name=criancas >
+                            <option value="" selected>Selecione a quantidade</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="2">3</option>
+                            <option value="2">4</option>
+                            <option value="1">5</option>
+                            <option value="2">6</option>
+                            <option value="2">7</option>
+                            <option value="2">8</option>
+                            <option value="1">9</option>
+                            <option value="2">10</option>
+                            <option value="2">11</option>
+                            <option value="2">12</option>
+                        </select>
+                    <p style="font-size: large;"><b>Nome: <br> </b><input type="text" name="nome"></p>
+                    <p style="font-size: large;"><b>Email: <br></b><input type="text" name="email"></p>
+                            
+                    <p style="font-size: large;"><b>Observações: </b>
+                    <textarea name="observacoes" placeholder="Digite observações" ></textarea>
+                    <input type="submit" value="Solicitar Orçamento"><p></p>  
+                </form>
+            </td>            
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <h4>Todos os direitos reservados</h4>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
