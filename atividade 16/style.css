@@ -1,0 +1,28 @@
+.principal {
+    text-align:center;
+    background-color:#138AF2;
+    color:#F2F2F2;
+    margin-top: 10%;
+    
+}
+
+.pages {
+    margin: 20px auto;
+    border: 1px solid #F2F2F2;
+    float: left;
+    width: 40%;
+    padding: 20px;
+    margin-left: 5%;
+    background-color: #F2F2F2;
+    border-radius: 40px 15px;
+}
+#btn {
+    position: relative;
+    background-color: #F2F2F2;
+    width: 80%;
+    height: 80px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1B63F2;
+    border: 0px;;
+}
