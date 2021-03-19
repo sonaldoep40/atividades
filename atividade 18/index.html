@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 18</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript">
+        function mostraValor(component){
+            var valor="Idade: " + component.getAttribute('data-idade') + " CPF: " +component.getAttribute('data-cpf')
+            alert(valor);
+        }
+    </script>
+</head>
+<body>
+    <ul>
+        <li class="pessoa" onclick="mostraValor(this)" data-idade="22" data-cpf="065.523.111-45">Ronaldo</li>
+        <li class="pessoa" onclick="mostraValor(this)" data-idade="26" data-cpf="075.541.311-45">Mayllana</li>
+        <li class="pessoa" onclick="mostraValor(this)" data-idade="33" data-cpf="165.553.181-13">Saulo</li>
+
+    </ul>
+    
+</body>
+</html>
