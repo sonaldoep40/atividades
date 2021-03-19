@@ -1,3 +1,4 @@
+/*Pagina inicial*/
 .principal {
     text-align:center;
     background-color:#138AF2;
@@ -25,4 +26,146 @@
     font-family: 'Times New Roman', Times, serif;
     color: #1B63F2;
     border: 0px;;
+}
+
+/*Primeira pagina*/
+.body-first {
+    background-color:#ffffff;
+}
+.mainMenu-first {
+    position: absolute;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    background-color: #19ac25;
+    text-align: center;
+}
+.header-first {
+    top: 50px;
+    position: absolute;
+    width:100%;
+    height: 120px;
+    background-color: #BEC7C7;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.content-first {
+    position: absolute;
+    top: 170px;
+    float: left;
+    width: 65%;
+    height: 700px;
+    background-color: #BB2020;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.sideBar-first {
+    position: absolute;
+    top: 170px;
+    left: 65%;
+    float:left;
+    width: 35%;
+    height: 700px;
+    background-color: #FFEB4D;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-first {
+    position: absolute;
+    top: 870px;
+    clear: both;
+    width: 100%;
+    height: 90px;
+    background-color: #121317;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #FFFF;
+    font-size: 32px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*Segunda pagina*/
+.body-second {
+    background-color:#ffffff;
+}
+.mainMenu-second {
+    top: 120px;
+
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    background-color: #19ac25;
+    text-align: left ;
+}   
+.mainMenu-second p{
+    margin-left: 20%;
+}
+.header-second {
+    width:100%;
+    height: 120px;
+    background-color: #BEC7C7;
+    text-align: end;
+
+    margin: 0px;
+    padding: 0px;
+}
+.header-second p{
+    margin-right: 5%;
+}
+.left-second {
+    float: left;
+    width: 25%;
+    height: 700px;
+    background-color: #BB2020;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.center-second {
+    float: left;
+    width: 50%;
+    height: 700px;
+    background-color: #FFEB4D;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.right-second {
+    float:left;
+    width: 25%;
+    height: 700px;
+    background-color: #0084ff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-second {
+    top: 870px;
+    clear: both;
+    width: 100%;
+    height: 90px;
+    background-color: #121317;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;  
+}
+.footer-second p{
+    margin-left: 10%;
 }
